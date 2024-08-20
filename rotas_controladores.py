@@ -16,3 +16,4 @@ def cadastrar_mercadoria():
     db.session.add(nova_mercadoria)
     db.session.commit()
     return jsonify({"message": "Mercadoria cadastrada com sucesso!"}), 201
+    
