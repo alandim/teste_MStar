@@ -1,0 +1,7 @@
+Flask==2.3.2
+Flask-SQLAlchemy==3.0.3
+Flask-Migrate==4.0.4
+Flask-CORS==4.0.0
+SQLAlchemy==2.0.18
+psycopg2-binary==2.9.7  # Caso use PostgreSQL como banco de dados
+PyPDF2==3.0.1  # Para gerar PDFs, ou você pode usar ReportLab ou WeasyPrint
